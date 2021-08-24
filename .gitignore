@@ -1,0 +1,5 @@
+Gopkg.lock
+.idea
+vendor
+gocr
+cfg/config.yml
