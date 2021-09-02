@@ -1,0 +1,4 @@
+log:
+    prod: false
+output:
+    path: /tmp/result.txt

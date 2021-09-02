@@ -5,7 +5,17 @@ import (
 )
 
 type (
+	Log struct {
+		Prod bool
+	}
+
+	Output struct {
+		Path string
+	}
+
 	Config struct {
+		Log Log
+		Output Output
 	}
 )
 
